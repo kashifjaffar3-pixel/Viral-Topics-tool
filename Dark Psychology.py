@@ -15,9 +15,7 @@ st.title("YouTube Viral Topics Tool")
 days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30, value=5)
 
 # List of broader keywords
-keywords = [
- "Nietzsche","Friedrich Nietzsche","Psicología Oscura","Voluntad de Poder
-","Übermensch","Trabajo con la Sombra","Filosofía","Existencialismo","Poder Personal","Control Mental","Fuerza Mental","Rebaño Humano",
+keywords = ["Übermensch","Trabajo con la Sombra","Filosofía","Existencialismo","Poder Personal","Control Mental","Fuerza Mental","Rebaño Humano",
 "Filosofía Prohibida","Verdades Brutales","Autodominio","Guerra Psicológica","Sentido de la Vida","Amor Fati","Eterno Retorno",
 "Citas de Nietzsche","Academia Oscura","Estoicismo","Psicología","Crisis de Identidad","Fortaleza Mental","Verdades Ocultas",
 "Dinámicas de Poder","El Extranjero Interior","Esclavo"
